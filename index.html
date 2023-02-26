@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <span class="titulo">Carros e Bicicletas</span>
+  <div class="item1">
+    <h2>Carro:
+      <span>R$1999</span>
+    </h2>
+    <p>Carro modelo <span>2045</span>, com <span>200km</span> rodados.</p>
+    <button type="button" id="botao1" onclick="link('botao1')">Comprar Carro</button>
+  </div>
+  <div class="item2">
+    <h2>Bicicleta:
+      <span>R$199</span>
+    </h2>
+    <p>Bicicleta modelo <span>2050</span>, com <span>200k</span> rodados.</p>
+    <button type="button" id="botao2" onclick="link('botao2')">Comprar Bicicleta
+    </button>
+  </div>
+  <script>
+    function link(id) {
+      var link;
+      if (id === 'botao1') {
+        link = "/produtos/carros.html";
+      }
+      else {
+        link = "/produtos/bicicletas.html"
+      }
+      window.location.href = link;
+    }
+  </script>
+</body>
+
+</html>

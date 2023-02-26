@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial;
+  margin: 50px;
+}
+
+.titulo {
+  display: grid;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 25px;
+  color: white;
+  margin: 10px;
+}
+
+.item1,
+.item2 {
+  background-color: black;
+  display: grid;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  position: relative;
+  left: 50px;
+  color: white;
+}
+
+span {
+  color: yellow;
+}
+
+p {
+  color: rgb(168, 168, 168);
+  margin: 10px;
+}
+
+#botao1,
+#botao2 {
+  display: inline-block;
+  border-radius: 30px;
+  background: rgb(212, 199, 7);
+  text-decoration: none;
+  padding: 10px;
+  font-size: 15px;
+  width: 30%;
+}
